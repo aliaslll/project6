@@ -34,9 +34,6 @@ button {
     border-color: black;
 }
 
-h3 {
-    text-align: left;
-}
 
 .container2 {
     display: flex;
@@ -52,9 +49,98 @@ span {
     color: white;
     background-color: black;
     padding: 20px;
-    border-radius: 10px;
+    border-top-left-radius: 20px ;
+    border-bottom-left-radius:20px ;
 }
 
 h1 {
+    font-size: 3rem;
+}
+
+section img {
+    border-radius: 90%;
+}
+
+.pharagraph {
+    display: flex;
+    gap: 10px;
+}
+
+.img1 {
     
+    background-color: black;
+    border-top-right-radius: 20px ;
+}
+
+.ul2 {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+    
+    justify-content: center;
+    
+}
+
+.canvix {
+    right: 60px;
+}
+
+footer {
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+.ul3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.ul3 > li {
+    flex: 1 1 0;
+    text-align: center;
+}
+
+.canvix2 {
+    position: relative;
+   display: flex;
+   flex-direction: row;
+   padding-left: 30px;
+}
+
+
+ .p1 {
+    position: relative;
+    right: 160px;
+}
+
+.ul3 {
+   display: flex;
+    list-style: none;
+    gap: 20px;
+    justify-content: center;
+}
+
+.ul4  ul {
+    list-style: none;
+    color: gray;
+}
+
+.ul5 {
+    margin-left: 487px;
+    margin-top: -280px;
+    color: gray;
+}
+
+.ul6 {
+    margin-left: 330px;
+    margin-top: -280px;
+    color: gray;
+}
 }
