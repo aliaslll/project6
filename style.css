@@ -90,6 +90,8 @@ footer {
     width: 100%;
     background-color: black;
     color: white;
+    padding: 20px;
+    
 }
 
 .ul3 {
@@ -134,13 +136,22 @@ footer {
 
 .ul5 {
     margin-left: 487px;
-    margin-top: -280px;
+    margin-top: -250px;
     color: gray;
 }
 
 .ul6 {
     margin-left: 330px;
-    margin-top: -280px;
+    margin-top: -340px;
     color: gray;
+}
+
+.comments {
+    position: fixed;
+    bottom: 30px;
+    right: 40px;
+    padding: 10px;
+    background-color: darkblue;
+    border-radius: 50%;
 }
 }
